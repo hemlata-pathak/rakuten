@@ -1,0 +1,30 @@
+{
+	"addressData": {
+		"bambergAddressData": {
+			"saluation": "Frau",
+			"firstName": "BambergUser",
+			"lastName": "Rakuten",
+			"street": "Geisfelder",
+			"houseNumber": "16",
+			"zipCode": "96050",
+			"city": "Bamberg",
+			"country": "Deutschland",
+			"countryCode": "DE",
+			"telephone": "9999999999",
+			"dob": "01/01/2000"
+		},
+		"berlinAddressData": {
+			"saluation": "herr",
+			"firstName": "Berlinuser",
+			"lastName": "Rakuten",
+			"street": "Schönhauser Allee",
+			"houseNumber": "112",
+			"zipCode": "10439",
+			"city": "Berlin",
+			"country": "Deutschland",
+			"countryCode": "DE",
+			"telephone": "8888888888",
+			"dob": "10/10/1999"
+		}
+	}
+}

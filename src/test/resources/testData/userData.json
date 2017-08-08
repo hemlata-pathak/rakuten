@@ -1,0 +1,46 @@
+{
+	"userData": {
+		"validUserData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "testrakuten45@gmail.com",
+			"password": "Passw0rd"
+		},
+		"invalidEmailData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "testrakuten",
+			"password": "Passw0rd"
+		},
+		"invalidPasswordData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "testrakuten45@gmail.com",
+			"password": "Pasrd"
+		},
+		"incorrectEmailPasswordData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "testraku@gmail.com",
+			"password": "passw0rd"
+		},
+		"blankEmailData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "",
+			"password": "Passw0rd"
+		},
+		"blankPasswordData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "testraku@gmail.com",
+			"password": ""
+		},
+		"blankEmailPasswordData": {
+			"firstName": "TestUser",
+			"lastName": "Rakuten",
+			"emailId": "",
+			"password": ""
+		}
+	}
+}

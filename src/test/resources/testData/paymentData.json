@@ -1,0 +1,18 @@
+{
+	"paymentData": {
+		"visaCardData": {
+			"cardType": "Visa",
+			"userName": "Testuser Rakuten",
+			"creditCardNumber": "4900000000000003",
+			"expiryDate": "01-2018",
+			"cvvCode": "123"
+		},
+		"masterCardData": {
+			"cardType": "MasterCard",
+			"userName": "Testuser Rakuten",
+			"debitCardNumber": "5404000000000001",
+			"expiryDate": "01-2018",
+			"cvvCode": "999"
+		}
+	}
+}
