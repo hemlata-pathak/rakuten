@@ -1,0 +1,12 @@
+#CheckoutPage
+#elementname: locatortype: locatorvalue
+
+checkoutModeHeader_label: xpath: //h2[text()='Wie möchten Sie fortfahren?']
+existingAccount_radiobutton: id: login-method3
+existingEmail_textbox: id: client_email
+existingPassword_textbox: id: password
+newAccount_radiobutton: id: login-method2
+newCustomerEmail_textbox: id: new-customer-email
+newCustomerPassword_textbox: id: new-customer-password
+newCustomerConfiemPassword_textbox: id: new-customer-password-confirmation
+goToNext_button: id: go_to_next_step

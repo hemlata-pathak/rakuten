@@ -1,0 +1,8 @@
+#HomePage
+#elementname: locatortype: locatorvalue
+
+searchItem_textbox: id: q
+search_button: xpath: //button[contains(@class,'b-btn-search')]
+logo_img: xpath: //a[contains(@class,'tr_header_logo')]
+login_button: classname: tr_header_login
+category_link: xpath: //li[contains(@class,'category')]/a/span[text()='${categoryName}']

@@ -1,0 +1,11 @@
+#ProductPage
+#elementname: locatortype: locatorvalue
+
+productName_label: classname: pname
+size_dropdown: id: rakuten_control_variant_1
+productPrice_label: xpath: //span[@class='price']/span
+quantity_textbox: classname: rakuten_control_quantity
+addToCart_button: xpath: //input[contains(@class,'add_to_cart')]
+productAddedMsg_label: xpath: //div[@id='atc_p_msg']/h2
+continueShopping_button: id: atc_b_cs
+moveToCartPage_button: id: atc_b_tsc

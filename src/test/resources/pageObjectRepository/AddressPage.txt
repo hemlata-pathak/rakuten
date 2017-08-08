@@ -1,0 +1,24 @@
+#AddressPage
+#elementname: locatortype: locatorvalue
+
+billingAddressHeader_label: xpath: //h2[contains(text(),'Ihre Rechnungsadresse')]
+billingAddressSaluation_dropdown: xpath: (//span[text()='Auswählen'])[1]/following-sibling::a
+billingAddressSaluation_list: xpath: (//span[text()='Auswählen'])[1]/../following-sibling::ul/li/a
+billingAddressfName_textbox: id: first-name
+billingAddresslName_textbox: id: last-name
+billingAddressStreet_textbox: id: street
+billingAddressStreetNumber_textbox: id: street-number
+billingAddressZipCode_textbox: id: zip-code
+billingAddressCity_textbox: id: city
+billingAddressCountry_dropdown: xpath: (//span[@class='country_DE'])[1]/following-sibling::a
+billingAddressCountry_list: xpath: (//span[@class='country_DE'])[1]/../following-sibling::ul/li/a
+billingAddressTelephone_textbox: id: phone
+billingAddressDay_dropdown: xpath: //span[text()='Tag']/following-sibling::a
+billingAddressDate_list: xpath: //span[text()='Tag']/../following-sibling::ul/li/a
+billingAddressMonth_dropdown: xpath: //span[text()='Monat']/following-sibling::a
+billingAddressMonth_list: xpath: //span[text()='Monat']/../following-sibling::ul/li/a
+billingAddressYear_dropdown: xpath: //span[text()='Jahr']/following-sibling::a
+billingAddressYear_list: xpath: //span[text()='Jahr']/../following-sibling::ul/li/a
+newsletterSubscription_checkbox: id: newsletter-subscription
+privacyConditions_checkbox: id: privacy
+goToNext_button: id: go_to_next_step

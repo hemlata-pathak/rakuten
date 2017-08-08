@@ -1,0 +1,9 @@
+#LoginPage
+#elementname: locatortype: locatorvalue
+
+loginForm_header_label: xpath: //h1[contains(text(),'Login für Rakuten Kunden')]
+username_textbox: name: loginEmail
+password_textbox: name: loginPassword
+login_button: xpath: //button[@value='login']
+loginMessages_label: xpath: //div[@class='messages']/div[text()='${errorMsg}']
+blankEmailMessage_label: xpath: //div[contains(@class,'rak-form')]/p

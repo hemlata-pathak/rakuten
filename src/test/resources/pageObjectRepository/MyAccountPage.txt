@@ -1,0 +1,7 @@
+#MyAccountPage
+#elementname: locatortype: locatorvalue
+
+myAccount_button: classname: acc-account
+accountName_link: xpath: //li[contains(@class,'tr_header_account_name')]/a
+recentOrderHeader_label: xpath: //h1[text()='Meine letzte Bestellung']
+logout_button: classname: tr_header_account_logout

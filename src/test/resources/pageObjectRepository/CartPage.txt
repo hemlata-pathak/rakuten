@@ -1,0 +1,13 @@
+#CartPage
+#elementname: locatortype: locatorvalue
+
+yourCartHeader_label: xpath: //h2[text()='Ihr Warenkorb']
+productPriceAmount_label: xpath: //div[contains(@id,'${skuId}')]/div[@class='right-text']/p
+productShippingAmount_label: xpath: //div[contains(@id,'${skuId}')]/following-sibling::div[@class='item-amounts-detail']/div[@class='amount-text']/div[contains(@class,'shipping-costs')]/p
+productTotalAmount_label: xpath: //div[contains(@id,'${skuId}')]/following-sibling::div[@class='item-amounts-detail']/div[@class='amount-text']/div[contains(@class,'total-costs')]/p
+productDiscountAmount_label: xpath: //div[contains(@id,'${skuId}')]/div[@class='right-text']/p[contains(@class,'discount')]
+productSize_label: xpath: //div[contains(@id,'${skuId}')]/div[@class='item-text']/p[@class='variant-information']/span
+productQuantity_textbox: xpath: //div[contains(@id,'${skuId}')]/div[@class='item-quantity']/form/input
+priceAmount_list: xpath: //div[contains(@class,'total-costs')]/p[@class='amount']
+summarizedTotal_label: xpath: //p[contains(@class,'overview_total')]
+goToCheckout_button: id: go_to_checkout

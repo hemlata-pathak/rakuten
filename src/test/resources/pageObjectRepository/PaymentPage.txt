@@ -1,0 +1,14 @@
+#PaymentPage
+#elementname: locatortype: locatorvalue
+
+paymentPageHeader_label: xpath: //h2[text()='Wie möchten Sie bezahlen?']
+cardType_dropdown: xpath: //span[text()='Visa']/following-sibling::a
+cardType_list: xpath: //span[text()='Visa']/../following-sibling::ul/li/a
+cardholderName_textbox: id: owner_cc
+cardNumber_textbox: id: number_cc
+cvvNumber_textbox: id: cvv_cc
+cardExpiryMonth_dropdown: xpath: //span[text()='Monat']/following-sibling::a
+cardExpiryMonth_list: xpath: //span[text()='Monat']/../following-sibling::ul/li/a
+cardExpiryYear_dropdown: xpath: //span[text()='Jahr']/following-sibling::a
+cardExpiryYear_list: xpath: //span[text()='Jahr']/../following-sibling::ul/li/a
+goToNext_button: id: go_to_next_step

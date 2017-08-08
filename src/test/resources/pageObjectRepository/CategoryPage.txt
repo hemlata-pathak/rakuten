@@ -1,0 +1,6 @@
+#CategoryPage
+#elementname: locatortype: locatorvalue
+
+categoryHeader_label: xpath: //div[@id='categories-nav']/div/h1
+firstRowItem_button: xpath: //ul[@class='row-0']/li[1]/a[2]
+productBySkuId_Button: xpath: //li[@id=${skuId}]/a[2]

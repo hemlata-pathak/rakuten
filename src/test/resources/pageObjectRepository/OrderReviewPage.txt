@@ -1,0 +1,10 @@
+#OrderReviewPage
+#elementname: locatortype: locatorvalue
+
+orderConfirmation_label: xpath: //h2[text()='Bitte best�tigen Sie Ihre Bestellung']
+userEmailId_label: xpath: //li[@id='order-name']/div[1]/span
+totalAmount_label: id: total-value-field
+userName_label: xpath: //li[@class='order-adress']/div[1]/span[2]
+userAddress_label: xpath: //li[@class='order-adress']/div[1]/span[3]
+paymentMethod_label: xpath://div[@class='payment-method']/strong
+goToNext_button: id: go_to_next_step
