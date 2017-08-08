@@ -117,11 +117,6 @@ public class BaseUi {
         }
     }
 
-    protected void closeWindow() {
-        hardWait(1);
-        driver.close();
-    }
-
     // scroll to the element in the page
     protected void scrollDown(WebElement element) {
         ((JavascriptExecutor) driver).executeScript(

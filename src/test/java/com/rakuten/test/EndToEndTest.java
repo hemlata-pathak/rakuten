@@ -11,8 +11,8 @@ import com.rakuten.configenvironment.TestSessionInitiator;
 import com.rakuten.pages.AddressPage;
 import com.rakuten.pages.CartPage;
 import com.rakuten.pages.CheckoutPage;
-import com.rakuten.pages.OrderReviewPage;
 import com.rakuten.pages.HomePage;
+import com.rakuten.pages.OrderReviewPage;
 import com.rakuten.pages.PaymentPage;
 import com.rakuten.pages.ProductPage;
 import com.rakuten.utils.ExtraUtil;
@@ -84,5 +84,4 @@ public class EndToEndTest extends TestSessionInitiator {
 		orderReviewPage.verifyPriceDetails(expectedSubTotal);
 		Reporter.log("Order is about to be placed for user..");
 	}
-
 }

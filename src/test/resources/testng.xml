@@ -9,6 +9,7 @@
 	<test name="rakuten test">
 		<classes>
 			<class name="com.rakuten.test.EndToEndTest" />
+			<class name="com.rakuten.test.LoginTest" />
 		</classes>
 	</test>
 </suite>
